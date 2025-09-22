@@ -1,0 +1,26 @@
+Breast Cancer Classification using Machine Learning
+This project demonstrates how to build and evaluate machine learning models to classify whether a breast tumor is benign or malignant using the famous Breast Cancer Wisconsin (Diagnostic) Dataset. It is a beginner-friendly project to understand data preprocessing, visualization, and classification with supervised learning techniques.
+
+Project Overview
+Dataset: Breast Cancer Wisconsin (Diagnostic) dataset (from sklearn.datasets).
+Task: Binary classification (Benign = 0, Malignant = 1).
+Goal: Predict cancer diagnosis using different ML algorithms.
+Tools: Python, Scikit-learn, Pandas, Matplotlib, Seaborn, Jupyter Notebook.
+
+Steps Involved
+Import Libraries – Load required Python libraries.
+Load Dataset – Use scikit-learn's built-in dataset.
+Data Preprocessing – Clean, encode, and prepare the data.
+Exploratory Data Analysis (EDA) – Visualize distributions and correlations.
+Feature Scaling – Standardize features for better model performance.
+Train-Test Split – Split dataset into training and testing sets.
+Model Training – Apply algorithms like:
+Logistic Regression
+Decision Tree
+Random Forest
+Support Vector Machine (SVM)
+k-Nearest Neighbors (kNN)
+Model Evaluation – Compare models using:
+Accuracy Score
+Confusion Matrix
+Classification Report
